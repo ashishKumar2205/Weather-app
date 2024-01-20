@@ -7,14 +7,18 @@
 body {
     background-color: #1c1b22;
     font-family: 'Poppins', sans-serif;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .card {
     width: 90%;
-    max-width: 500px;
+    max-width: 460px;
+    /* height: 600px; */
     background-color: #2b2a33;
     color: #fff;
-    margin: 40px auto 0;
     border-radius: 20px;
     padding: 30px 40px 35px 40px;
     text-align: center;
@@ -34,7 +38,7 @@ body {
     background-color: #42414d;
     color: #e5e5e5;
     padding: 10px 25px;
-    height: 60px;
+    height: 55px;
     border-radius: 30px;
     flex: 1;
     margin-right: 16px;
@@ -66,17 +70,17 @@ body {
 }
 
 .weather-icon {
-    width: 170px;
+    width: 150px;
     margin-top: 30px;
 }
 
 .weather h1 {
-    font-size: 80px;
+    font-size: 70px;
     font-weight: 500;
 }
 
 .weather h2 {
-    font-size: 45px;
+    font-size: 40px;
     font-weight: 400;
     margin-top: -10px;
 }
@@ -102,12 +106,12 @@ body {
 }
 
 .col img {
-    width: 40px;
+    width: 35px;
     margin-right: 10px;
 }
 
 .humidity, .wind {
-    font-size: 28px;
+    font-size: 23px;
     margin-top: -6px;
 }
 
@@ -122,6 +126,7 @@ body {
     font-size: 20px;
     display: none;
 }
+
 
 @media (max-width: 600px) {
     .card {
